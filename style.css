@@ -1,0 +1,52 @@
+.btn-outline-success{
+  color: black;
+  border-color: black;
+}
+
+.btn-outline-success:hover{
+  color:white;
+  background-color: black;
+  border-color: black;
+}
+
+.btn-dark{
+  border-radius: 4px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+.first-line {
+  border-bottom: 1px solid white;
+}
+
+.second-line a{
+  color:white;
+  text-decoration: none;
+}
+
+.third-line{
+  display: none;
+}
+
+@media screen and (max-width: 48rem){
+  .first-line{
+    text-align: center;
+  }
+  
+  .second-line{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid white;
+  }
+  
+  .third-line{
+    display: block;
+  }
+
+  .flag{
+    display: none;
+  }
+}
